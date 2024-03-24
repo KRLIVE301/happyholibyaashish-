@@ -1,12 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>
-HAPPY_HOLI_BY_AASHISH
-</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Video</title>
 </head>
 <body>
-<video autoplay muted width="100%" heigth="100%">
-<source src="C:\Users\PUNTA\Downloads\Untitled video - Made with Clipchamp (32).mp4" type="video/mp4">
-</video>
-</boddy>
+    <h1>Embedded Video Example</h1>
+    
+    <video width="100%" height="100%" controls>
+        <source src="C:\Users\PUNTA\Downloads\Untitled video - Made with Clipchamp (32).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
 </html>
+
